@@ -1,11 +1,11 @@
 from flask import request, Response
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from database.models import Product, User
+from eindwerkapi.database.models import Product, User
 from flask_restful import Resource
 
 from mongoengine.errors import FieldDoesNotExist, \
 NotUniqueError, DoesNotExist, ValidationError, InvalidQueryError
-from resources.errors import SchemaValidationError, ProductAlreadyExistsError, \
+from eindwerkapi.resources.errors import SchemaValidationError, ProductAlreadyExistsError, \
 InternalServerError, UpdatingProductError, DeletingProductError, ProductNotExistsError
 
 

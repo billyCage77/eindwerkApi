@@ -1,1 +1,1 @@
-from resources.auth import SignupApi, SignupUi, LoginApi
+from eindwerkapi.resources.auth import SignupApi, SignupUi, LoginApi

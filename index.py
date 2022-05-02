@@ -1,4 +1,4 @@
-from restApiDataBase.app import app
+from eindwerkapi.app import app
 
 
 if __name__ == "__main__":
